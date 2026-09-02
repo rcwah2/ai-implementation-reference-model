@@ -205,7 +205,7 @@ This reference model is the hub that ties together all governance artifacts:
 The full reasoning, narrative, and case studies behind this reference model are published as a 7-part series on Substack:
 
 1. **From AI Pilot to Enterprise Readiness** — [rwahai.substack.com](https://rwahai.substack.com/p/from-ai-pilot-to-enterprise-readiness)
-2. **Portfolio Strategy — Where Should We Invest, and Why?** — [rwahai.substack.com](https://rwahai.substack.com/p/portfolio-strategy-where-should-we-invest) *(coming soon)*
+2. **Portfolio Strategy — Where Should We Invest, and Why?** — [rwahai.substack.com](https://rwahai.substack.com/p/portfolio-strategy-where-should-we)
 3. Phase 0 — Enterprise Discovery & Readiness *(coming soon)*
 4. Enterprise Governance & AIMS *(coming soon)*
 5. Program Governance & Integration *(coming soon)*
