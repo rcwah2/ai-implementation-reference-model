@@ -85,7 +85,7 @@ A governance policy might say that an AI agent cannot access a particular system
 | **Execution & Production Authorization** | How do we build, evaluate, and determine whether the enterprise should accept the remaining risk? |
 | **Runtime Operations & Value Realization** | How do we operate, monitor, adapt, and determine whether the investment delivered the expected outcome? |
 
-Organizational change and adoption spans the entire progression.
+Organizational change and adoption spans the entire progression. Agentic AI controls and runtime governance also span the progression — from Phase 0 (should we deploy an autonomous agent?) through Runtime Operations (how do we monitor, contain, and shut it down?).
 
 ---
 
@@ -104,6 +104,42 @@ The reference model spans the following areas. Not every AI initiative requires 
 - **Operational support and resilience** — Monitoring, incident response, continuity, recovery
 - **Production authorization and runtime operation** — Decision gates, runtime controls, reauthorization
 
+### Agentic AI Controls (Cross-Cutting)
+
+Agentic AI — systems that can invoke tools, access systems, communicate externally, initiate transactions, and take consequential actions — creates a distinct set of governance and control requirements that span the entire progression. A governance policy might say that an AI agent cannot access a particular system, spend beyond a threshold, or execute a consequential action without approval. But a policy is not the same as enforcement.
+
+> **Governance defines what the AI should be allowed to do. Runtime controls help determine what it can actually do.**
+
+Agentic AI controls cut across every level of the progression:
+
+| Progression Level | Agentic AI Question |
+|---|---|
+| **Portfolio Strategy** | Does this use case require autonomous action? Is the organization ready to govern it? |
+| **Phase 0 — Discovery & Readiness** | What authority will the agent have? What systems will it access? What are the consequences of unintended actions? |
+| **Enterprise Governance / AIMS** | What policies apply to autonomous agents? Who owns the risk of agent decisions? |
+| **Program Governance & Integration** | How are agent permissions coordinated across initiatives? Where do agent capabilities create concentrations of risk? |
+| **Implementation** | What runtime controls are needed? (identity, bounded permissions, permitted tools, authorization checks, transaction limits) |
+| **Execution & Production Authorization** | Who authorizes an agent to take consequential actions? What evidence is required? |
+| **Runtime Operations & Value Realization** | How do we monitor agent behavior against baseline? How do we contain and shut down an agent that behaves unexpectedly? |
+
+Runtime controls that may be required for agentic AI in production:
+
+- Identity and access controls
+- Bounded permissions
+- Permitted tools and destinations
+- Authorization checks
+- Transaction limits
+- Human approval for consequential actions
+- Telemetry and behavioral monitoring
+- Delegation chain logging
+- Escalation
+- Containment
+- Shutdown capabilities
+
+**Framework references:** NIST AI 100-4 (Agentic AI), NIST AI 100-5, CSA Agentic AI Governance Profile, OWASP Top 10 for Agentic Applications, NIST CAISI AI Agent Standards Initiative
+
+> See [AI Vendor Due Diligence Template](https://github.com/rcwah2/ai-vendor-due-diligence-template) — Agentic AI Controls section for assessment questions covering autonomy classification, tool access, identity, kill switch, and behavioral monitoring
+
 ---
 
 ## Decision Gates
@@ -117,7 +153,8 @@ Each gate represents a point where an experiment becomes an enterprise risk deci
 | Governance → Program | Policies, accountability, and risk framework established | Do not begin implementation |
 | Program → Implementation | Dependencies mapped; decision rights assigned; resource conflicts resolved | Do not execute |
 | Implementation → Production Authorization | Controls implemented; testing complete; oversight defined; risk accepted by authorized decision-maker | Do not deploy to production |
-| Production → Runtime Operations | Monitoring operational; incident response tested; value metrics defined | Do not certify; continue monitoring |
+| Production Authorization → Agentic AI Gate | Agent authority defined; runtime controls tested; containment and shutdown verified; human approval workflow operational | Do not authorize agent actions |
+| Agentic AI Gate → Runtime Operations | Monitoring operational; incident response tested; value metrics defined; behavioral baseline established | Do not certify; continue monitoring |
 | Runtime → Reassessment | Value realized; material changes assessed; reauthorization if needed | Re-enter at appropriate level |
 
 ---
@@ -143,6 +180,7 @@ While the AI delivery team progresses through the lifecycle, other parts of the 
 | Implementation Reference Model | MEASURE, MANAGE | Clauses 8, 10, Annex A.6/A.8 |
 | Execution & Production Authorization | MEASURE, MANAGE | Clause 8.3, Annex A.8 |
 | Runtime Operations & Value Realization | MEASURE, MANAGE | Clause 9, Annex A.6 |
+| Agentic AI Controls (cross-cutting) | GOVERN, MEASURE, MANAGE | Annex A.8.4, A.10; NIST AI 100-4/100-5 |
 
 > See [AI Governance Crosswalk](https://github.com/rcwah2/ai-governance-crosswalk) for detailed framework mapping
 
@@ -185,7 +223,7 @@ The better question is:
 
 > Which activities, controls, decisions, and evidence are necessary for this particular AI capability, in this particular enterprise, at this particular level of risk?
 
-A low-risk internal assistant should not be treated the same as an autonomous system making consequential decisions or taking actions inside a regulated environment. Adapt this model to your organization's specific requirements, risk tolerance, and regulatory obligations.
+A low-risk internal assistant should not be treated the same as an autonomous system making consequential decisions or taking actions inside a regulated environment. Agentic AI — where systems can take actions, not just generate information — raises the stakes at every decision gate. The question of what authority an AI agent has, and who approved that authority, is not optional. Adapt this model to your organization's specific requirements, risk tolerance, and regulatory obligations.
 
 ---
 
