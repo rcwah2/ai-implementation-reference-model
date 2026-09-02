@@ -2,105 +2,151 @@
 
 ## AI Implementation Reference Model
 
-A phased reference model for moving AI initiatives from pilot to enterprise-ready production. Designed for program managers, governance leads, and implementation teams who need a structured framework for navigating the gap between a successful pilot and operational AI.
+A reference model for connecting strategy and governance to coordinated execution, production operations, and measurable outcomes.
+
+> **What has to be true for this particular AI capability to succeed in this particular enterprise?**
+
+This is the first article in a six-part series exploring the Enterprise AI Implementation Reference Model. The model is not intended to be a definitive methodology for implementing AI — AI is changing too quickly, and organizations are too different for that to make sense. It is guidance for identifying which activities, controls, decisions, and evidence are necessary for a given AI capability in a given enterprise at a given level of risk.
 
 > **A successful pilot is not the same as enterprise readiness.**
 
-## Why This Exists
+---
 
-Most AI initiatives fail not at the pilot stage but at the transition to production. The pilot proves the technology works in a controlled environment. Enterprise readiness requires governance, vendor management, risk assessment, monitoring, incident response, and organizational alignment that pilots rarely address.
+## Core Principles
 
-This reference model defines the phases, activities, artifacts, and decision gates that must be in place before AI can move from experiment to enterprise operation safely.
+### The challenge is not the number of activities. It is the dependencies.
 
-## The Model
+As AI enters an enterprise, it interacts with business processes, employees, customers, data, identities, APIs, vendors, security controls, regulatory requirements, and operating teams. One dependency reveals another — business alignment connects to value realization, workflow design connects to organizational change, data readiness connects to privacy and cybersecurity, vendor choices create operational dependencies, and production creates requirements for monitoring, support, incident response, continuity, and recovery.
 
-### Phase 0: Governance Before Execution
+The value of a strong program leader is not in personally executing every technical activity. It is in making cross-functional dependencies visible, getting decisions to the right level, managing resource and risk conflicts, and ensuring that leaders have enough evidence to make informed decisions.
 
-Before any AI system is deployed, establish the governance foundation:
+### The project is only one level of the problem.
 
-- **AI policy** — Define acceptable use, accountability, and oversight requirements
-- **Roles and responsibilities** — Assign AI system owners, governance leads, and escalation paths
-- **Risk assessment framework** — Select and align to NIST AI RMF, ISO/IEC 42001, EU AI Act
-- **AI system inventory** — Register every AI system with an owner, risk tier, and classification
+Enterprise AI cannot always be managed as a collection of independent projects. Organizations may have initiatives competing for the same data, platforms, funding, cybersecurity resources, specialized talent, and business capacity. That creates a **portfolio problem**:
 
-> Artifacts: [AI System Inventory Template](https://github.com/rcwah2/ai-system-inventory-template) | [AI Governance Crosswalk](https://github.com/rcwah2/ai-governance-crosswalk)
+- Which AI investments align with strategy?
+- Which should receive funding and scarce resources?
+- Which are actually ready to proceed?
+- Where are multiple initiatives creating common dependencies or concentrations of risk?
+- Which should be accelerated, redesigned, deferred — or stopped?
 
-### Phase 1: Context and Risk Mapping
+At the **program level**, the challenge becomes integration. Data, technology, cybersecurity, governance, vendors, organizational change, and operations may cut across multiple projects. Program governance establishes how dependencies are managed, where risks are escalated, what evidence is required, and who has the decision rights to accept, mitigate, transfer, or reject risk at key points.
 
-Define the scope, intended use, and risk profile of the AI system:
+### Change management begins before rollout.
 
-- **Intended use and stakeholders** — Document the business purpose, affected parties, and deployment context
-- **Risk classification** — Classify by EU AI Act tier, NIST AI RMF risk level, and business criticality
-- **Impact assessment** — Conduct AI-specific impact assessment (bias, privacy, safety, societal)
-- **Data provenance** — Document training data sources, lineage, and sensitivity
+Organizational change is not something that starts when training begins. It starts during discovery — leadership alignment matters early, managers need to understand how roles may change, business users need to be involved when workflows are redesigned, and adoption continues after production. Organizational change and adoption is a **cross-cutting discipline** from early discovery through value realization.
 
-> Artifacts: [AI System Inventory Template](https://github.com/rcwah2/ai-system-inventory-template) — System identification, classification, and data/model sections
+### Governance should guide execution, not become a separate universe.
 
-### Phase 2: Vendor Assessment and Procurement
+An organization may establish an AI Management System under ISO/IEC 42001 and use NIST AI RMF to support its approach to AI risk. What matters operationally is whether governance expectations become real work, real decisions, real evidence, and real controls. A policy alone does not implement governance — programs and operating teams have to translate policy into the way AI is actually designed, approved, deployed, and operated.
 
-Assess third-party AI systems and vendors before procurement:
+### Agility and governance do not have to compete.
 
-- **Due diligence questionnaire** — Assess vendor capabilities across governance, security, privacy, financial viability, incident response, and agentic AI controls
-- **Vendor risk scoring** — Score responses against organizational risk tolerance
-- **Contract requirements** — Define SOW/operational requirements and contract clause checklist for legal review
-- **Agentic AI assessment** — If the system includes autonomous agents, assess autonomy classification, tool access, identity, kill switch, and behavioral monitoring
+> **Sprints create learning. Gates authorize changes in business exposure.**
 
-> Artifacts: [AI Vendor Due Diligence Template](https://github.com/rcwah2/ai-vendor-due-diligence-template) — Three-part governance pack
+A team can iterate quickly during development. But connecting AI to sensitive information, granting additional permissions, allowing autonomous actions, or authorizing production can materially change the organization's exposure. Those decisions may require a different level of evidence and decision authority. The objective is not bureaucracy — it is knowing when an experiment becomes an enterprise risk decision.
 
-### Phase 3: Implementation and Controls
+### Production is not the finish line.
 
-Deploy the AI system with appropriate controls in place:
+The lifecycle does not end at Build → Deploy. It continues:
 
-- **Security controls** — Encryption, access management, vulnerability management
-- **Human oversight** — Define oversight mechanisms, escalation thresholds, and override capabilities
-- **Bias and fairness testing** — Conduct and document bias testing methodology and findings
-- **Explainability** — Provide model documentation, feature importance, and transparency artifacts
-- **Agentic AI controls** — Runtime guardrails, approval gates, behavioral monitoring, delegation chain logging
+**Operate → Monitor → Respond → Improve**
 
-### Phase 4: Monitoring and Operations
+Data can drift. Performance can degrade. Models and vendor platforms can change. Cyber threats evolve. Business processes, regulatory expectations, and employee and customer behavior change. A system that was acceptable under one set of assumptions may no longer be acceptable when those assumptions materially change. Material changes may require reauthorization.
 
-Maintain ongoing oversight of the AI system in production:
+### Runtime governance matters.
 
-- **Performance monitoring** — Track accuracy, drift, and behavioral changes
-- **Drift detection** — Monitor for model drift, data drift, and concept drift
-- **Incident response** — Maintain AI-specific incident response plan with evidence preservation
-- **Supplier monitoring** — Reassess vendors on a defined cadence
-- **Agentic AI monitoring** — Behavioral monitoring against baseline, delegation chain monitoring, autonomy calibration
+A governance policy might say that an AI agent cannot access a particular system, spend beyond a threshold, or execute a consequential action without approval. But a policy is not the same as enforcement. Production environments may need controls that operate while the AI is running:
 
-### Phase 5: Review and Improvement
+- Identity and access controls
+- Bounded permissions
+- Permitted tools and destinations
+- Authorization checks
+- Transaction limits
+- Human approval for consequential actions
+- Telemetry
+- Escalation
+- Containment
+- Shutdown capabilities
 
-Continuously improve the AI governance program:
+> **Governance defines what the AI should be allowed to do. Runtime controls help determine what it can actually do.**
 
-- **Internal audit** — Audit AI systems against governance requirements
-- **Management review** — Review program effectiveness and make improvements
-- **Corrective actions** — Address findings from audits, incidents, and monitoring
-- **Program maturity** — Assess and advance governance program maturity over time
+---
+
+## The Progression
+
+| Level | Question |
+|---|---|
+| **Portfolio Strategy** | Where should we invest, and why? |
+| **Phase 0 — Enterprise Discovery & Readiness** | Should this initiative move forward, and is the organization ready? |
+| **Enterprise Governance / AIMS** | What policies, accountability, and risk-management environment apply? |
+| **Program Governance & Integration** | How do we coordinate dependencies, resources, decision rights, risks, and organizational change? |
+| **Implementation Reference Model** | What workstreams and readiness conditions apply? |
+| **Execution & Production Authorization** | How do we build, evaluate, and determine whether the enterprise should accept the remaining risk? |
+| **Runtime Operations & Value Realization** | How do we operate, monitor, adapt, and determine whether the investment delivered the expected outcome? |
+
+Organizational change and adoption spans the entire progression.
+
+---
+
+## Workstream Areas
+
+The reference model spans the following areas. Not every AI initiative requires all of them — applicability depends on the system's risk profile, autonomy level, and regulatory context.
+
+- **Business strategy and value** — Investment justification, expected outcomes, value realization
+- **Workflow and process design** — How AI changes how work moves through the organization
+- **Data and information** — Readiness, provenance, sensitivity, privacy
+- **Model development and evaluation** — Build, test, evaluate, iterate
+- **Cybersecurity and privacy** — Exposure assessment, security controls, data protection
+- **AI governance and risk** — Policies, accountability, risk processes, controls, evidence
+- **Vendor and third-party dependencies** — Due diligence, procurement, ongoing monitoring
+- **Organizational change and adoption** — Leadership alignment, role changes, training, adoption tracking
+- **Operational support and resilience** — Monitoring, incident response, continuity, recovery
+- **Production authorization and runtime operation** — Decision gates, runtime controls, reauthorization
+
+---
 
 ## Decision Gates
 
-Each phase has a decision gate that must be passed before proceeding:
+Each gate represents a point where an experiment becomes an enterprise risk decision. The question is not whether every activity was completed, but whether sufficient evidence exists for the decision-maker to authorize a change in business exposure.
 
 | Gate | Criteria to Proceed | If Not Met |
 |---|---|---|
-| Phase 0 → 1 | AI policy approved, roles assigned, risk framework selected | Do not begin AI system deployment |
-| Phase 1 → 2 | Intended use documented, risk classification complete, impact assessment done | Do not procure or deploy |
-| Phase 2 → 3 | Vendor due diligence complete, risk accepted, contracts in place | Do not proceed with vendor |
-| Phase 3 → 4 | Security controls implemented, oversight defined, testing complete | Do not move to production |
-| Phase 4 → 5 | Monitoring operational, incident response plan tested | Continue monitoring, do not certify |
-| Phase 5 → 0 | Audit complete, corrective actions addressed | Re-enter at Phase 0 for updates |
+| Portfolio → Phase 0 | Investment aligns with strategy; funding and resources available | Do not initiate |
+| Phase 0 → Governance | Business problem validated; executive alignment confirmed; enterprise readiness assessed | Do not proceed to design |
+| Governance → Program | Policies, accountability, and risk framework established | Do not begin implementation |
+| Program → Implementation | Dependencies mapped; decision rights assigned; resource conflicts resolved | Do not execute |
+| Implementation → Production Authorization | Controls implemented; testing complete; oversight defined; risk accepted by authorized decision-maker | Do not deploy to production |
+| Production → Runtime Operations | Monitoring operational; incident response tested; value metrics defined | Do not certify; continue monitoring |
+| Runtime → Reassessment | Value realized; material changes assessed; reauthorization if needed | Re-enter at appropriate level |
+
+---
+
+## Where CPMAI Fits
+
+The reference model is not intended to replace established AI lifecycle methodologies such as PMI-CPMAI. CPMAI provides a structured lifecycle for progressing an AI initiative through business understanding, data understanding, data preparation, model development, evaluation, and operationalization.
+
+> **CPMAI provides an AI delivery lifecycle. The reference model looks at the broader enterprise environment that may need to support that lifecycle.**
+
+While the AI delivery team progresses through the lifecycle, other parts of the enterprise may have work to complete — cybersecurity may need to evaluate exposure, privacy may need to resolve data questions, vendors may need additional due diligence, operations may need a support model, governance may require evidence, users may need preparation, and executives may need to authorize additional business exposure. These activities do not replace the AI lifecycle. They surround it.
+
+---
 
 ## Framework Alignment
 
-| Phase | NIST AI RMF Function | ISO/IEC 42001 Clauses |
+| Progression Level | NIST AI RMF Function | ISO/IEC 42001 Clauses |
 |---|---|---|
-| Phase 0 | GOVERN | Clauses 4-5, Annex A.2/A.3 |
-| Phase 1 | MAP | Clause 6.1.4, Annex A.4/A.5 |
-| Phase 2 | GOVERN, MANAGE | Annex A.10 (suppliers) |
-| Phase 3 | MEASURE, MANAGE | Clause 6.1.2, Clauses 8, 10, Annex A.6/A.8 |
-| Phase 4 | MEASURE, MANAGE | Clause 9, Annex A.6 |
-| Phase 5 | GOVERN | Clause 9.2, 9.3 |
+| Portfolio Strategy | GOVERN | Clauses 4-5, Annex A.2/A.3 |
+| Phase 0 — Discovery & Readiness | MAP | Clause 6.1.4, Annex A.4/A.5 |
+| Enterprise Governance / AIMS | GOVERN | Clauses 4-5, 6.1, Annex A.2/A.3 |
+| Program Governance & Integration | GOVERN, MANAGE | Clause 6.1.2, Annex A.10 |
+| Implementation Reference Model | MEASURE, MANAGE | Clauses 8, 10, Annex A.6/A.8 |
+| Execution & Production Authorization | MEASURE, MANAGE | Clause 8.3, Annex A.8 |
+| Runtime Operations & Value Realization | MEASURE, MANAGE | Clause 9, Annex A.6 |
 
 > See [AI Governance Crosswalk](https://github.com/rcwah2/ai-governance-crosswalk) for detailed framework mapping
+
+---
 
 ## Related Repositories
 
@@ -108,15 +154,40 @@ This reference model is the hub that ties together all governance artifacts:
 
 | Repository | Role in the Model |
 |---|---|
-| [AI System Inventory Template](https://github.com/rcwah2/ai-system-inventory-template) | Phase 0-1: System registration and documentation |
-| [AI Vendor Due Diligence Template](https://github.com/rcwah2/ai-vendor-due-diligence-template) | Phase 2: Vendor assessment and procurement |
-| [AI Governance Crosswalk](https://github.com/rcwah2/ai-governance-crosswalk) | Phase 0: Framework selection and alignment |
-| [AI Governance Portfolio](https://github.com/rcwah2/ai-governance-portfolio) | Case studies and reasoning |
+| [AI System Inventory Template](https://github.com/rcwah2/ai-system-inventory-template) | Phase 0 / Governance: System registration and documentation |
+| [AI Vendor Due Diligence Template](https://github.com/rcwah2/ai-vendor-due-diligence-template) | Implementation: Vendor assessment, procurement, and contract requirements |
+| [AI Governance Crosswalk](https://github.com/rcwah2/ai-governance-crosswalk) | Governance: Framework selection and alignment (NIST AI RMF, ISO 42001, EU AI Act) |
+| [AI Governance Portfolio](https://github.com/rcwah2/ai-governance-portfolio) | Case studies and governance reasoning |
 | [Case Studies](https://github.com/rcwah2/Case-Studies) | Enterprise delivery experience |
+
+---
 
 ## Read the Series
 
-The full reasoning, narrative, and case studies behind this reference model are published as a 6-part series on Substack: [rwahai.substack.com](https://rwahai.substack.com/)
+The full reasoning, narrative, and case studies behind this reference model are published as a 6-part series on Substack:
+
+1. **From AI Pilot to Enterprise Readiness** — [rwahai.substack.com](https://rwahai.substack.com/p/from-ai-pilot-to-enterprise-readiness)
+2. Phase 0 — Enterprise Discovery & Readiness *(coming soon)*
+3. Enterprise Governance & AIMS *(coming soon)*
+4. Program Governance & Integration *(coming soon)*
+5. Execution & Production Authorization *(coming soon)*
+6. Runtime Operations & Value Realization *(coming soon)*
+
+---
+
+## A Reference Model, Not a Recipe
+
+The question is not:
+
+> Did we complete every activity in the model?
+
+The better question is:
+
+> Which activities, controls, decisions, and evidence are necessary for this particular AI capability, in this particular enterprise, at this particular level of risk?
+
+A low-risk internal assistant should not be treated the same as an autonomous system making consequential decisions or taking actions inside a regulated environment. Adapt this model to your organization's specific requirements, risk tolerance, and regulatory obligations.
+
+---
 
 ## Author
 
@@ -129,7 +200,3 @@ The full reasoning, narrative, and case studies behind this reference model are 
 ## License
 
 This reference model is provided for educational and professional use. Adapt it to your organization's specific requirements, risk tolerance, and regulatory obligations.
-
----
-
-*"The challenge is not the number of activities. It is the dependencies."*
