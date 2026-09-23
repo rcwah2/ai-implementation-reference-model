@@ -136,7 +136,7 @@ Runtime controls that may be required for agentic AI in production:
 - Containment
 - Shutdown capabilities
 
-**Framework references:** NIST AI 100-4 (Agentic AI), NIST AI 100-5, CSA Agentic AI Governance Profile, OWASP Top 10 for Agentic Applications, NIST CAISI AI Agent Standards Initiative
+**Framework references:** CSA Agentic AI Governance Profile, OWASP Top 10 for Agentic Applications, NIST CAISI AI Agent Standards Initiative
 
 > See [AI Vendor Due Diligence Template](https://github.com/rcwah2/ai-vendor-due-diligence-template) — Agentic AI Controls section for assessment questions covering autonomy classification, tool access, identity, kill switch, and behavioral monitoring
 
@@ -180,7 +180,7 @@ While the AI delivery team progresses through the lifecycle, other parts of the 
 | Implementation Reference Model | MEASURE, MANAGE | Clauses 8, 10, Annex A.6/A.8 |
 | Execution & Production Authorization | MEASURE, MANAGE | Clause 8.3, Annex A.8 |
 | Runtime Operations & Value Realization | MEASURE, MANAGE | Clause 9, Annex A.6 |
-| Agentic AI Controls (cross-cutting) | GOVERN, MEASURE, MANAGE | Annex A.8.4, A.10; NIST AI 100-4/100-5 |
+| Agentic AI Controls (cross-cutting) | GOVERN, MEASURE, MANAGE | Annex A.8.4, A.10; CSA Agentic AI Governance Profile, OWASP Top 10 for Agentic Applications |
 
 > See [AI Governance Crosswalk](https://github.com/rcwah2/ai-governance-crosswalk) for detailed framework mapping
 
