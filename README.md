@@ -202,7 +202,7 @@ This reference model is the hub that ties together all governance artifacts:
 
 ## Read the Series
 
-The full reasoning, narrative, and case studies behind this reference model are published as a 7-part series on Substack. Articles are also available in the [articles](articles/README.md) folder.
+The full reasoning, narrative, and case studies behind this reference model are published as a 7-part series on Substack. Articles are also available in the [articles](articles/README.md) folder. Article updates are versioned and recorded in the [article change log](articles/CHANGELOG.md), with earlier versions kept in the [archive](articles/archive/README.md).
 
 1. **From AI Pilot to Enterprise Readiness** — [rwahai.substack.com](https://rwahai.substack.com/p/from-ai-pilot-to-enterprise-readiness)
 2. **Portfolio Strategy — Where Should We Invest, and Why?** — [rwahai.substack.com](https://rwahai.substack.com/p/portfolio-strategy-where-should-we)
