@@ -6,7 +6,7 @@ A reference model for connecting strategy and governance to coordinated executio
 
 > **What has to be true for this particular AI capability to succeed in this particular enterprise?**
 
-This is the first article in a six-part series exploring the Enterprise AI Implementation Reference Model. The model is not intended to be a definitive methodology for implementing AI — AI is changing too quickly, and organizations are too different for that to make sense. It is guidance for identifying which activities, controls, decisions, and evidence are necessary for a given AI capability in a given enterprise at a given level of risk.
+This is the first article in a seven-part series exploring the Enterprise AI Implementation Reference Model. The model is not intended to be a definitive methodology for implementing AI — AI is changing too quickly, and organizations are too different for that to make sense. It is guidance for identifying which activities, controls, decisions, and evidence are necessary for a given AI capability in a given enterprise at a given level of risk.
 
 > **A successful pilot is not the same as enterprise readiness.**
 
@@ -202,11 +202,11 @@ This reference model is the hub that ties together all governance artifacts:
 
 ## Read the Series
 
-The full reasoning, narrative, and case studies behind this reference model are published as a 7-part series on Substack:
+The full reasoning, narrative, and case studies behind this reference model are published as a 7-part series on Substack. Articles are also available in the [articles](articles/README.md) folder.
 
 1. **From AI Pilot to Enterprise Readiness** — [rwahai.substack.com](https://rwahai.substack.com/p/from-ai-pilot-to-enterprise-readiness)
 2. **Portfolio Strategy — Where Should We Invest, and Why?** — [rwahai.substack.com](https://rwahai.substack.com/p/portfolio-strategy-where-should-we)
-3. Phase 0 — Enterprise Discovery & Readiness *(coming soon)*
+3. **Phase 0 — Enterprise Discovery & Readiness** — [Read on GitHub](articles/article-3-phase-0-enterprise-discovery-and-readiness.md) *(Substack coming soon)*
 4. Enterprise Governance & AIMS *(coming soon)*
 5. Program Governance & Integration *(coming soon)*
 6. Execution & Production Authorization *(coming soon)*
