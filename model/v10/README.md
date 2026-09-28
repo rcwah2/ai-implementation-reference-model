@@ -7,21 +7,20 @@ Version 10 of the Enterprise AI Implementation Reference Model covers 450 tasks 
 | File | Description |
 |---|---|
 | [Implementation Guide](Enterprise_AI_Implementation_Reference_Model_v10_Implementation_Guide.docx) | A practical method for tailoring, executing, governing, and maintaining the 450-task reference model for a specific implementation. |
-| [Version 9 to Version 10 Change Report](Enterprise_AI_Implementation_Reference_Model_v10_Change_Report.docx) | What changed between Version 9 and Version 10, why each change was added, and the standards sources behind it. |
 
-## What changed in Version 10
+## Focus of Version 10
 
-Version 10 adds 24 tasks in three new phases:
+Version 10 strengthens three areas:
 
-- **Phase 25 — AI Security Assurance & Framework Integration** (T427–T434)
-- **Phase 26 — Model Development Security** (T435–T443)
-- **Phase 27 — AI-Enabled Cyber Defense (Conditional)** (T444–T450)
+- AI-specific cybersecurity traceability and shared responsibility
+- Model development security
+- A conditional path for AI-enabled cybersecurity defense
 
-Primary sources for the new work include NIST IR 8596 (Cyber AI Profile, Initial Preliminary Draft), the Cloud Security Alliance AI Controls Matrix (AICM), and the EU Cyber Resilience Act. See the change report for the full source basis.
+These additions draw on NIST cybersecurity guidance for AI, the Cloud Security Alliance AI Controls Matrix (AICM), and the EU Cyber Resilience Act.
 
 ## About the workbook
 
-The full Version 10 workbook is maintained privately. The implementation guide and change report describe how the model is structured and used.
+The full Version 10 workbook and the detailed Version 9 to Version 10 change report are maintained privately. The implementation guide describes how the model is structured and used.
 
 ## Important note
 
