@@ -26,7 +26,7 @@ For how versions are numbered and archived, see [Versioning and Archive Policy](
 
 | Date | Version | Type | Change | Reason and source | Regulatory register ID | Approved | GitHub | Substack | Archived prior version |
 |---|---|---|---|---|---|---|---|---|---|
-| 2026-09-30 | v1.0 | Initial release | Article published; added to the articles index and root README | — | — | 2026-09-30 | This pull request | Published | — (first version) |
+| 2026-09-30 | v1.0 | Initial release | Article published; added to the articles index and root README | — | REG-002, REG-004, REG-007, REG-063 (framework references tracked privately) | 2026-09-30 | PR #3 (`3b4b46d`) | Published | — (first version) |
 
 ## Article 3 — Phase 0 — Enterprise Discovery and Readiness
 
