@@ -20,6 +20,14 @@ For how versions are numbered and archived, see [Versioning and Archive Policy](
 
 ---
 
+## Companion Article 1 — Your AI Model Works. But Does the System?
+
+**Current version:** v1.0 · [GitHub](companion-1-your-ai-model-works-but-does-the-system.md) · [Substack](https://rwahai.substack.com/p/your-ai-model-works-but-does-the)
+
+| Date | Version | Type | Change | Reason and source | Regulatory register ID | Approved | GitHub | Substack | Archived prior version |
+|---|---|---|---|---|---|---|---|---|---|
+| 2026-09-30 | v1.0 | Initial release | Article published; added to the articles index and root README | — | — | 2026-09-30 | This pull request | Published | — (first version) |
+
 ## Article 3 — Phase 0 — Enterprise Discovery and Readiness
 
 **Current version:** v1.0 · [GitHub](article-3-phase-0-enterprise-discovery-and-readiness.md) · [Substack](https://rwahai.substack.com/p/phase-0-enterprise-discovery)

@@ -20,6 +20,8 @@ Archived copies use the article's file name with its version number:
 archive/article-<number>-<slug>-v<major>.<minor>.md
 ```
 
+Companion articles follow the same pattern with a `companion-<number>` prefix, for example `archive/companion-1-your-ai-model-works-but-does-the-system-v1.0.md`.
+
 Example: when Article 3 moves from v1.0 to v1.1, the v1.0 text is saved as
 `archive/article-3-phase-0-enterprise-discovery-and-readiness-v1.0.md`.
 
