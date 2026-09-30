@@ -16,6 +16,14 @@ The articles explain the reasoning. The [reference model](../README.md) summariz
 | 6 | Execution & Production Authorization | Execution & Production Authorization | How do we build, evaluate, and determine whether the enterprise should accept the remaining risk? | — | *Coming soon* |
 | 7 | Runtime Operations & Value Realization | Runtime Operations & Value Realization | How do we operate, monitor, adapt, and determine whether the investment delivered the expected outcome? | — | *Coming soon* |
 
+## Companion Articles
+
+Companion articles examine topics that cut across several levels of the progression rather than a single level.
+
+| # | Article | Levels Addressed | Core Question | Version | Links |
+|---|---|---|---|---|---|
+| C1 | Your AI Model Works. But Does the System? | Phase 0 — Enterprise Discovery & Readiness; Execution & Production Authorization; Runtime Operations & Value Realization | How do we evaluate a component, the boundaries around it and the resulting outcome as one AI-enabled system? | v1.0 | [GitHub](companion-1-your-ai-model-works-but-does-the-system.md) · [Substack](https://rwahai.substack.com/p/your-ai-model-works-but-does-the) |
+
 ## Article 3 at a Glance
 
 [Phase 0 — Enterprise Discovery and Readiness](article-3-phase-0-enterprise-discovery-and-readiness.md) covers what happens after an initiative clears portfolio selection and before it becomes an implementation commitment:
@@ -27,6 +35,17 @@ The articles explain the reasoning. The [reference model](../README.md) summariz
 - **Authority changes the decision** — Define what the AI may access, which tools it may use, and whether it recommends, prepares, or executes actions.
 - **Turn discovery into a decision** — Proceed, proceed with conditions, redesign, defer, or stop, supported by a concise executive brief.
 - **Not production authorization** — A favorable Phase 0 decision authorizes the next level of work under defined conditions, not production risk acceptance.
+
+## Companion Article 1 at a Glance
+
+[Your AI Model Works. But Does the System?](companion-1-your-ai-model-works-but-does-the-system.md) looks at AI bias, risk, and business outcomes across the whole AI-enabled decision pathway, not only the model:
+
+- **Follow the decision pathway** — Applicant Data → Model → Score → Decision Rule → Workflow → Recruiter → Hiring Manager → Outcome → Future Data.
+- **Component → Boundary → Outcome** — Ask what could happen within each component, what could happen between components, and what actually happened.
+- **The boundary may matter as much as the component** — Thresholds, workflows, integrations, and human overrides can introduce, amplify, or propagate bias as a technical output becomes a business action.
+- **Who owns the risk when it crosses the boundary?** — Ownership often changes at each transition, so risk can become everybody's concern but nobody's responsibility.
+- **Technical success is not business success** — Technical Function → System Behavior → Business Outcome are different levels of measurement.
+- **Why Phase 0 comes first** — Scoping the AI-enabled system too narrowly narrows the risk assessment and the definition of success.
 
 ## Versions and Change Log
 

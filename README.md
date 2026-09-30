@@ -212,6 +212,10 @@ The full reasoning, narrative, and case studies behind this reference model are 
 6. Execution & Production Authorization *(coming soon)*
 7. Runtime Operations & Value Realization *(coming soon)*
 
+**Companion articles** examine topics that cut across the progression:
+
+- **Your AI Model Works. But Does the System?** — [rwahai.substack.com](https://rwahai.substack.com/p/your-ai-model-works-but-does-the) · [GitHub](articles/companion-1-your-ai-model-works-but-does-the-system.md)
+
 ---
 
 ## A Reference Model, Not a Recipe
