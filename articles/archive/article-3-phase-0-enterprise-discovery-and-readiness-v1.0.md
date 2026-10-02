@@ -1,3 +1,7 @@
+> **Archived version.** This is v1.0 of this article, superseded on 2026-10-02 by v2.0.
+> Read the [current version](../article-3-phase-0-enterprise-discovery-and-readiness.md).
+> See the [change log](../CHANGELOG.md) for what changed and why.
+
 # Phase 0 — Enterprise Discovery and Readiness
 
 *AI Implementation Reference Model — Article 3 of 7*
@@ -53,8 +57,8 @@ I look at readiness across several domains because a gap in one can limit the en
 | Leadership and decisions | Is there a sponsor, an accountable business owner, and a clear path for resolving cross-functional decisions and accepting risk? |
 | Process and people | Is the current workflow understood, and can the organization redesign roles, approvals, exceptions, and training around the new capability? |
 | Data | Are sources sufficiently reliable, accessible, current, permitted for the intended use, and owned by someone who can resolve problems? |
-| Technology and security | Can the capability integrate with existing systems and be protected, monitored, supported, contained, and recovered? Which hosting, data-location, connectivity, and trust-boundary constraints affect the deployment options? |
-| Vendors and AI supply chain | Which providers supply the model, orchestration, application, cloud services, and data—and which responsibilities remain with the enterprise? Who owns dependencies and coordinates support, incidents, and recovery when components operate across environments? |
+| Technology and security | Can the capability integrate with existing systems and be protected, monitored, supported, contained, and recovered? |
+| Vendors and AI supply chain | Which providers supply the model, orchestration, application, cloud services, and data—and which responsibilities remain with the enterprise? |
 | Risk and obligations | What privacy, security, regulatory, contractual, safety, and resilience constraints affect the intended use? |
 | Investment economics | What is the likely investment range, who funds it, and what value must materialize for the return to justify the cost and risk? |
 | Value and operations | How will benefits be measured, and who will operate and improve the capability after launch? |
@@ -64,18 +68,6 @@ This is not an instruction to complete every implementation task during discover
 For example, a provider may offer strong security evidence for its model service. That does not answer whether the enterprise configured retrieval permissions correctly, has rights to use its source data, or can support the business workflow when the provider changes. Vendor assurance and enterprise readiness are related, but they are not interchangeable.
 
 The same issue appears across a portfolio. Several initiatives may rely on one model provider, cloud service, data source, or security review team. A dependency that looks manageable inside one project can become a concentration of risk when viewed across the enterprise.
-
-## Deployment choices belong in the readiness discussion
-
-An AI capability may operate within one approved environment or use components across enterprise, cloud, edge, and third-party environments. Phase 0 should establish whether distributing those components addresses a measurable business need and whether the enterprise can support the additional dependencies, cost, and risk.
-
-Three decisions need to remain distinct. Logical architecture describes how workflows, orchestration, agents, models, tools, applications, and data interact. Deployment architecture describes where those components run and how they communicate. Governance and the operating model establish who owns outcomes, sets policy, grants authority, accepts risk, and operates the capability.
-
-Multiple agents can operate within one environment. Distributed deployment can retain centralized governance. Moving a component to another environment does not, by itself, expand its authority.
-
-During Phase 0, identify candidate deployment options, hosting and data-location constraints, significant trust boundaries, shared dependencies, and accountable owners. Compare a distributed option with a centralized baseline. Record what benefit would justify the added complexity and which assumptions require further evidence.
-
-This is a readiness assessment, not a requirement to complete the technical design. Subsequent stages define the components, versioned interfaces, controls, transition prerequisites, tests, and rollback conditions needed to implement an approved option.
 
 ## Test the economics before committing to scale
 
@@ -89,8 +81,6 @@ An assistant that drafts a response and an agent that executes a transaction sho
 
 During Phase 0, leadership should establish the proposed boundary of authority. What information may the AI access? Which systems and tools might it use? Will it recommend actions, prepare them for human approval, or execute them? Which actions could affect money, rights, records, safety, or external communications? Who can pause or withdraw that authority?
 
-Authority also needs to remain bounded when one agent delegates work to another agent or calls a service in another environment. Phase 0 should identify the proposed delegation limits, accountable owners, and actions requiring human approval. Later design and testing must establish how each receiving tool or service independently verifies the caller’s identity and effective authority before executing an action. An upstream agent’s approval alone should not grant permission.
-
 The detailed architecture and runtime controls come later. But if the organization cannot describe the intended authority and its consequences, it cannot make an informed decision about the investment, its risk, or the level of oversight required.
 
 This question matters even if the first release is deliberately limited. A plausible future expansion should be visible in the roadmap rather than appearing as an informal permission change after the pilot succeeds.
@@ -100,9 +90,9 @@ This question matters even if the first release is deliberately limited. A plaus
 Phase 0 is useful when it produces a decision leaders can act on. A concise executive brief should establish:
 
 1. The business problem, intended outcome, baseline, and accountable owner.
-2. The proposed AI capability, its users, affected people, limits of authority, and permitted delegation.
-3. The most important readiness findings, candidate deployment options, hosting and data constraints, significant trust boundaries, and shared dependencies with named owners.
-4. Material security, privacy, vendor, regulatory, resilience, and change concerns, including how responsibilities would be coordinated across environments.
+2. The proposed AI capability, its users, affected people, and limits of authority.
+3. The most important readiness findings and shared dependencies.
+4. Material security, privacy, vendor, regulatory, resilience, and change concerns.
 5. A directional budget, cost and benefit assumptions, expected return range, funding owner, and economic stop or reassessment threshold.
 6. Prerequisites, owners, effort, and the sequence in which gaps must be addressed.
 7. A recommendation and the evidence supporting it.
@@ -118,8 +108,6 @@ That discipline gives executives a way to preserve a promising idea without pret
 A favorable Phase 0 decision authorizes the next level of work under defined conditions. It does not mean every control has been built, every test passed, or production risk accepted.
 
 Those decisions belong to the subsequent implementation and governance process: architecture, data and model work, security and privacy engineering, vendor responsibility, evaluation, operational readiness, and formal production authorization. Agile teams can learn and iterate during delivery, while leaders retain decision rights when the proposed capability gains access, authority, scale, or business exposure.
-
-The same discipline applies when an established capability changes its deployment. Moving an agent, model, tool, or data service to another environment requires proportionate reassessment of dependencies, interfaces, data access, authority, and recovery. Subsequent implementation work should verify that controls remain effective across the changed boundaries, interrupted work can be reconciled, and rollback is practical before the transition is authorized.
 
 This is where the Enterprise AI Implementation Reference Model helps me connect the pieces. It turns a readiness decision into coordinated work, named owners, evidence, and gates. The work is tailored to the actual system and risk. A purchased internal assistant, a custom predictive model, and an agent that can change business records will not follow identical paths.
 

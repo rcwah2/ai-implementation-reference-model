@@ -56,4 +56,4 @@ and the [previous version](https://github.com/rcwah2/ai-implementation-reference
 
 | Article | Version | Superseded on | Superseded by | File |
 |---|---|---|---|---|
-| — | — | — | — | No archived versions yet |
+| Article 3 — Phase 0 — Enterprise Discovery and Readiness | v1.0 | 2026-10-02 | v2.0 | [article-3-phase-0-enterprise-discovery-and-readiness-v1.0.md](article-3-phase-0-enterprise-discovery-and-readiness-v1.0.md) |
