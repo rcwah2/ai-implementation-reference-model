@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="1900" viewBox="0 0 1600 1900" width="1600">
+<defs>
+    <marker id="arrow" markerHeight="9" markerWidth="9" orient="auto-start-reverse" refX="8" refY="4.5">
+      <path d="M0 0L9 4.5L0 9" fill="#476079"/>
+    </marker>
+  </defs>
+  <rect fill="#ffffff" height="1900" width="1600"/>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="35" font-weight="bold" x="50" y="53">Enterprise AI Technical Reference Architecture</text>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="18" font-weight="normal" x="50" y="87">CONCEPTUAL REFERENCE • v1.0 • Aligned with Enterprise Architecture sheet, Implementation Model v11</text>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="18" font-weight="normal" x="50" y="119">Companion to the management and governance diagram • Component placement and agent use are conditional</text>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="27" font-weight="bold" x="50" y="167">1  Logical architecture — responsibilities independent of hosting</text>
+<rect fill="#edf4fa" height="83" rx="12" stroke="#92aec7" stroke-width="2" width="700" x="50" y="195"/>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="21" font-weight="bold" x="68" y="226">Business workflows</text>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="18" font-weight="normal" x="68" y="254">Business purpose • accountable outcome owner</text>
+<rect fill="#edf4fa" height="83" rx="12" stroke="#92aec7" stroke-width="2" width="730" x="820" y="195"/>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="21" font-weight="bold" x="838" y="226">Human oversight</text>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="18" font-weight="normal" x="838" y="254">Consequential approvals • escalation • stop authority</text>
+<rect fill="#f7fafc" height="170" rx="12" stroke="#7f99b0" stroke-width="2" width="1500" x="50" y="320"/>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="21" font-weight="bold" x="68" y="351">Workflow and agent authority boundary</text>
+<rect fill="#edf4fa" height="88" rx="12" stroke="#92aec7" stroke-width="2" width="620" x="85" y="374"/>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="21" font-weight="bold" x="103" y="405">Orchestration</text>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="18" font-weight="normal" x="103" y="433">Workflow coordination • checkpoints • execution budgets</text>
+<rect fill="#edf4fa" height="88" rx="12" stroke="#92aec7" stroke-width="2" width="620" x="875" y="374"/>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="21" font-weight="bold" x="893" y="405">AI agents</text>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="18" font-weight="normal" x="893" y="433">Bounded capabilities • controlled agent-to-agent delegation</text>
+<path d="M400 278 L400 374" fill="none" marker-end="url(#arrow)" stroke="#476079" stroke-width="2.2"/>
+<path d="M1180 278 L1180 374" fill="none" marker-end="url(#arrow)" stroke="#476079" stroke-width="2.2"/>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="16" font-weight="normal" x="1188.0" y="318.0">Approval / escalation</text>
+<path d="M705 418 L875 418" fill="none" marker-end="url(#arrow)" stroke="#476079" stroke-width="2.2"/>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="16" font-weight="normal" x="798.0" y="410.0">Scoped handoff</text>
+<rect fill="#f4f0fa" height="250" rx="12" stroke="#aa96c5" stroke-width="2" width="670" x="50" y="545"/>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="21" font-weight="bold" x="68" y="576">Model interaction boundary — AI Sandwich</text>
+<rect fill="#eee6f7" height="48" rx="12" stroke="#92aec7" stroke-width="2" width="620" x="75" y="602"/>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="20" font-weight="bold" x="93" y="633">Ingress validation</text>
+<rect fill="#eee6f7" height="48" rx="12" stroke="#92aec7" stroke-width="2" width="620" x="75" y="665"/>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="20" font-weight="bold" x="93" y="696">Model services</text>
+<rect fill="#eee6f7" height="48" rx="12" stroke="#92aec7" stroke-width="2" width="620" x="75" y="728"/>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="20" font-weight="bold" x="93" y="759">Output validation</text>
+<path d="M385 650 L385 665" fill="none" marker-end="url(#arrow)" stroke="#476079" stroke-width="2.2"/>
+<path d="M385 713 L385 728" fill="none" marker-end="url(#arrow)" stroke="#476079" stroke-width="2.2"/>
+<path d="M980 490 L590 545" fill="none" marker-end="url(#arrow)" stroke="#476079" stroke-width="2.2"/>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="16" font-weight="normal" x="793.0" y="509.5">Model request / validated result</text>
+<rect fill="#eff8f4" height="250" rx="12" stroke="#84b7a2" stroke-width="2" width="780" x="770" y="545"/>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="21" font-weight="bold" x="788" y="576">Action and resource authority boundary</text>
+<rect fill="#e0f1e8" height="48" rx="12" stroke="#92aec7" stroke-width="2" width="730" x="795" y="602"/>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="20" font-weight="bold" x="813" y="633">Deterministic runtime action authorization</text>
+<rect fill="#e0f1e8" height="48" rx="12" stroke="#92aec7" stroke-width="2" width="730" x="795" y="665"/>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="20" font-weight="bold" x="813" y="696">Receiving-service authorization</text>
+<rect fill="#e0f1e8" height="48" rx="12" stroke="#92aec7" stroke-width="2" width="730" x="795" y="728"/>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="20" font-weight="bold" x="813" y="759">Tools and enterprise applications</text>
+<path d="M1160 650 L1160 665" fill="none" marker-end="url(#arrow)" stroke="#476079" stroke-width="2.2"/>
+<path d="M1160 713 L1160 728" fill="none" marker-end="url(#arrow)" stroke="#476079" stroke-width="2.2"/>
+<path d="M1260 490 L1260 545" fill="none" marker-end="url(#arrow)" stroke="#476079" stroke-width="2.2"/>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="16" font-weight="normal" x="1268.0" y="509.5">Proposed action</text>
+<rect fill="#fff7e8" height="100" rx="12" stroke="#ceb47b" stroke-width="2" width="1500" x="50" y="837"/>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="21" font-weight="bold" x="68" y="868">Data and state ownership boundary</text>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="18" font-weight="normal" x="68" y="896">Data/state services: authoritative business records | workflow state/checkpoints | memory, retrieval and caches</text>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="18" font-weight="normal" x="68" y="921">Named owners • authorized access • freshness • concurrency • reconciliation • retention</text>
+<path d="M1160 795 L1160 837" fill="none" marker-end="url(#arrow)" stroke="#476079" stroke-width="2.2"/>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="16" font-weight="normal" x="1168.0" y="808.0">Record access</text>
+<rect fill="#233f59" height="102" rx="12" stroke="#233f59" stroke-width="2" width="1500" x="50" y="969"/>
+<text fill="#ffffff" font-family="Arial, sans-serif" font-size="21" font-weight="bold" x="68" y="1000">Agent Control Plane — cross-cutting controls</text>
+<text fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="normal" x="68" y="1028">Identity • authorization • policy enforcement • monitoring • audit • recovery • independent containment</text>
+<text fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="normal" x="68" y="1053">Applies at every component and handoff; correlate business task, identities, delegation, approvals and outcomes.</text>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="17" font-weight="normal" x="50" y="1103">Boundary boxes indicate trust/authority changes, not prescribed network segments. Arrows are representative interactions.</text>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="17" font-weight="normal" x="50" y="1130">Delegation cannot expand authority. Every receiving service verifies caller, scope, action and resource; model output is not permission.</text>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="27" font-weight="bold" x="50" y="1180">2  Deployment options — same logical components, different approved placement</text>
+<rect fill="#edf4fa" height="248" rx="12" stroke="#92aec7" stroke-width="2" width="450" x="50" y="1212"/>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="21" font-weight="bold" x="68" y="1243">A  One approved environment</text>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="18" font-weight="normal" x="68" y="1271">Workflows and human oversight</text>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="18" font-weight="normal" x="68" y="1296">Orchestration and agents</text>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="18" font-weight="normal" x="68" y="1321">Models, tools and applications</text>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="18" font-weight="normal" x="68" y="1346">Data/state services</text>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="18" font-weight="normal" x="68" y="1371">Local enforcement and telemetry</text>
+<rect fill="#f7fafc" height="248" rx="12" stroke="#92aec7" stroke-width="2" width="1015" x="535" y="1212"/>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="21" font-weight="bold" x="553" y="1243">B  Across approved environments</text>
+<rect fill="#edf4fa" height="82" rx="12" stroke="#92aec7" stroke-width="2" width="465" x="555" y="1268"/>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="21" font-weight="bold" x="573" y="1299">Enterprise</text>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="18" font-weight="normal" x="573" y="1327">Workflows • apps • authoritative records</text>
+<rect fill="#edf4fa" height="82" rx="12" stroke="#92aec7" stroke-width="2" width="480" x="1050" y="1268"/>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="21" font-weight="bold" x="1068" y="1299">Cloud</text>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="18" font-weight="normal" x="1068" y="1327">Agents • models • approved data/state</text>
+<rect fill="#edf4fa" height="72" rx="12" stroke="#92aec7" stroke-width="2" width="465" x="555" y="1370"/>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="21" font-weight="bold" x="573" y="1401">Edge</text>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="18" font-weight="normal" x="573" y="1429">Local execution • bounded offline scope</text>
+<rect fill="#edf4fa" height="72" rx="12" stroke="#92aec7" stroke-width="2" width="480" x="1050" y="1370"/>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="21" font-weight="bold" x="1068" y="1401">Third party</text>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="18" font-weight="normal" x="1068" y="1429">Approved models • APIs • services</text>
+<path d="M1020 1308 L1050 1308" fill="none" marker-end="url(#arrow)" stroke="#476079" stroke-width="2.2"/>
+<path d="M785 1350 L785 1370" fill="none" marker-end="url(#arrow)" stroke="#476079" stroke-width="2.2"/>
+<path d="M1290 1350 L1290 1370" fill="none" marker-end="url(#arrow)" stroke="#476079" stroke-width="2.2"/>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="19" font-weight="normal" x="50" y="1496">Across boundaries: versioned contracts • approved service discovery • receiving-service authorization • trace correlation</text>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="19" font-weight="normal" x="50" y="1527">In every environment: policy enforcement • local containment • safe recovery • named service and state owners</text>
+<rect fill="#edf4fa" height="73" rx="12" stroke="#92aec7" stroke-width="2" width="1500" x="50" y="1550"/>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="23" font-weight="bold" x="68" y="1581">Distributed deployment does not automatically mean decentralized governance.</text>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="18" font-weight="normal" x="68" y="1609">Hosting, governance structure and agent authority are independent decisions. Multiple agents may run in one environment.</text>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="24" font-weight="bold" x="50" y="1662">Lifecycle and architectural evolution</text>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="19" font-weight="normal" x="50" y="1693">Phase 0: business justification, constraints, authority boundaries, dependencies and ownership; record open decisions.</text>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="19" font-weight="normal" x="50" y="1723">Gates 2–3: design and approve architecture/authority. Gates 4–5: implement controls and telemetry.</text>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="19" font-weight="normal" x="50" y="1753">Gates 6–8: test end-to-end failures, confirm readiness and authorize production. Operations: reassess material changes.</text>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="19" font-weight="normal" x="50" y="1783">Evolution: modular services, interface compatibility, state migration, transition prerequisites and rollback.</text>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="19" font-weight="normal" x="50" y="1813">Containment: timeouts, bounded retries, duplicate prevention, cancellation and uncertain-result reconciliation; fail closed.</text>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="17" font-weight="normal" x="50" y="1850">Workbook alignment: T035–T045 • T244/T254 • T333/T344 • T391/T396 • T431. Technical expansion of layers 5–7.</text>
+<text fill="#23364c" font-family="Arial, sans-serif" font-size="17" font-weight="normal" x="50" y="1877">Assumptions: vendor-neutral; tailor by use case and risk; edge, agents and third parties are optional; no fixed hosting topology.</text>
+</svg>

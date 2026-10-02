@@ -1,3 +1,6 @@
+> **Archived version.** Version 10 was superseded on 2026-10-02 by Version 11.
+> See the [current version](../../v11/README.md) and the [model archive](../README.md).
+
 # Enterprise AI Implementation Reference Model — Version 10
 
 Version 10 of the Enterprise AI Implementation Reference Model covers 450 tasks across portfolio strategy, governance, delivery, security, and operations. It is an incremental maturity upgrade to Version 9, not a structural rewrite.
