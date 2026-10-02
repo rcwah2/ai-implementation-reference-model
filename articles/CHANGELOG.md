@@ -30,10 +30,11 @@ For how versions are numbered and archived, see [Versioning and Archive Policy](
 
 ## Article 3 — Phase 0 — Enterprise Discovery and Readiness
 
-**Current version:** v1.0 · [GitHub](article-3-phase-0-enterprise-discovery-and-readiness.md) · [Substack](https://rwahai.substack.com/p/phase-0-enterprise-discovery)
+**Current version:** v2.0 · [GitHub](article-3-phase-0-enterprise-discovery-and-readiness.md) · [Substack](https://rwahai.substack.com/p/phase-0-enterprise-discovery)
 
 | Date | Version | Type | Change | Reason and source | Regulatory register ID | Approved | GitHub | Substack | Archived prior version |
 |---|---|---|---|---|---|---|---|---|---|
+| 2026-10-02 | v2.0 | Substantive revision | New section "Deployment choices belong in the readiness discussion"; Technology and security and Vendors and AI supply chain readiness questions expanded; delegation paragraph added to "Authority changes the readiness decision"; executive brief items 2–4 revised; deployment-change paragraph added to "Phase 0 is a starting decision, not production authorization" | Aligns the article with Implementation Reference Model v11, which adds distributed architecture as an option justified during Phase 0 | — | 2026-10-02 | PR #6 | Pending: post to be updated in place with an update note | [v1.0](archive/article-3-phase-0-enterprise-discovery-and-readiness-v1.0.md) |
 | 2026-09-27 | v1.0 | Initial release | Article published | — | — | 2026-09-27 | `045d4dd`, `bf5794d` (Substack link added) | Published | — (first version) |
 
 ## Article 2 — Portfolio Strategy — Where Should We Invest, and Why?

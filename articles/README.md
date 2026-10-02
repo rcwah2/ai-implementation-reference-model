@@ -10,7 +10,7 @@ The articles explain the reasoning. The [reference model](../README.md) summariz
 |---|---|---|---|---|---|
 | 1 | From AI Pilot to Enterprise Readiness | Series introduction | What has to be true for this particular AI capability to succeed in this particular enterprise? | v1.0 | [Reference model](../README.md) · [Substack](https://rwahai.substack.com/p/from-ai-pilot-to-enterprise-readiness) |
 | 2 | Portfolio Strategy — Where Should We Invest, and Why? | Portfolio Strategy | Which AI investments deserve scarce enterprise capacity? | v1.0 | [GitHub](article-2-portfolio-strategy.md) · [Substack](https://rwahai.substack.com/p/portfolio-strategy-where-should-we) |
-| 3 | Phase 0 — Enterprise Discovery and Readiness | Phase 0 — Enterprise Discovery & Readiness | Can this organization implement, govern, operate, and realize value from this AI capability under the conditions that actually exist? | v1.0 | [GitHub](article-3-phase-0-enterprise-discovery-and-readiness.md) · [Substack](https://rwahai.substack.com/p/phase-0-enterprise-discovery) |
+| 3 | Phase 0 — Enterprise Discovery and Readiness | Phase 0 — Enterprise Discovery & Readiness | Can this organization implement, govern, operate, and realize value from this AI capability under the conditions that actually exist? | v2.0 | [GitHub](article-3-phase-0-enterprise-discovery-and-readiness.md) · [Substack](https://rwahai.substack.com/p/phase-0-enterprise-discovery) |
 | 4 | Enterprise Governance & AIMS | Enterprise Governance / AIMS | What policies, accountability, and risk-management environment apply? | — | *Coming soon* |
 | 5 | Program Governance & Integration | Program Governance & Integration | How do we coordinate dependencies, resources, decision rights, risks, and organizational change? | — | *Coming soon* |
 | 6 | Execution & Production Authorization | Execution & Production Authorization | How do we build, evaluate, and determine whether the enterprise should accept the remaining risk? | — | *Coming soon* |
@@ -31,8 +31,9 @@ Companion articles examine topics that cut across several levels of the progress
 - **Where a pilot fits** — A controlled pilot is built and run after an initial Phase 0 decision authorizes that work, not before.
 - **Start with the business problem** — Define the outcome, baseline, accountable owner, and whether AI is the right intervention.
 - **Readiness as connected conditions** — Leadership and decisions, process and people, data, technology and security, vendors and AI supply chain, risk and obligations, investment economics, and value and operations.
+- **Deployment choices** — Keep logical architecture, deployment, and governance distinct; compare any distributed option with a centralized baseline and record the benefit that would justify the added complexity.
 - **Test the economics** — A credible financial hypothesis with scenarios and an economic stop or reassessment threshold, not a falsely precise ROI.
-- **Authority changes the decision** — Define what the AI may access, which tools it may use, and whether it recommends, prepares, or executes actions.
+- **Authority changes the decision** — Define what the AI may access, which tools it may use, and whether it recommends, prepares, or executes actions, and keep authority bounded when agents delegate work or call services in other environments.
 - **Turn discovery into a decision** — Proceed, proceed with conditions, redesign, defer, or stop, supported by a concise executive brief.
 - **Not production authorization** — A favorable Phase 0 decision authorizes the next level of work under defined conditions, not production risk acceptance.
 
