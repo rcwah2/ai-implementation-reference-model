@@ -32,6 +32,10 @@ The full Version 11 workbook and the Version 10 to Version 11 change log are mai
 
 Version 10 is archived in [`model/archive/v10/`](../archive/v10/README.md).
 
+## Revisions
+
+- 2026-10-02: CSA AICM source reference in Section 11 of the implementation guide corrected to v1.1 (the version CSA publishes). File name and content otherwise unchanged.
+
 ## Important note
 
 The model is a reference, not a universal mandate. Its activities and illustrative dates must be tailored to each implementation. Framework citations explain the design basis; they do not, by themselves, establish legal obligations. This material is educational and professional, not legal advice.
