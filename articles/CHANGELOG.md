@@ -20,6 +20,14 @@ For how versions are numbered and archived, see [Versioning and Archive Policy](
 
 ---
 
+## Companion Article 2 — Bias Does Not Begin or End With the Model
+
+**Current version:** v1.0 · [GitHub](companion-2-bias-does-not-begin-or-end-with-the-model.md) · [Substack](https://rwahai.substack.com/p/bias-does-not-begin-or-end-with-the)
+
+| Date | Version | Type | Change | Reason and source | Regulatory register ID | Approved | GitHub | Substack | Archived prior version |
+|---|---|---|---|---|---|---|---|---|---|
+| 2026-10-14 | v1.0 | Initial release | Article published; added to the articles index and root README | — | — | 2026-10-14 | PR (this PR) | Published | — (first version) |
+
 ## Companion Article 1 — Your AI Model Works. But Does the System?
 
 **Current version:** v1.0 · [GitHub](companion-1-your-ai-model-works-but-does-the-system.md) · [Substack](https://rwahai.substack.com/p/your-ai-model-works-but-does-the)

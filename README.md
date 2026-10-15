@@ -215,6 +215,7 @@ The full reasoning, narrative, and case studies behind this reference model are 
 **Companion articles** examine topics that cut across the progression:
 
 - **Your AI Model Works. But Does the System?** — [rwahai.substack.com](https://rwahai.substack.com/p/your-ai-model-works-but-does-the) · [GitHub](articles/companion-1-your-ai-model-works-but-does-the-system.md)
+- **Bias Does Not Begin or End With the Model** — [rwahai.substack.com](https://rwahai.substack.com/p/bias-does-not-begin-or-end-with-the) · [GitHub](articles/companion-2-bias-does-not-begin-or-end-with-the-model.md)
 
 ---
 
