@@ -23,6 +23,8 @@ Companion articles examine topics that cut across several levels of the progress
 | # | Article | Levels Addressed | Core Question | Version | Links |
 |---|---|---|---|---|---|
 | C1 | Your AI Model Works. But Does the System? | Phase 0 — Enterprise Discovery & Readiness; Execution & Production Authorization; Runtime Operations & Value Realization | How do we evaluate a component, the boundaries around it and the resulting outcome as one AI-enabled system? | v1.0 | [GitHub](companion-1-your-ai-model-works-but-does-the-system.md) · [Substack](https://rwahai.substack.com/p/your-ai-model-works-but-does-the) |
+| C2 | Bias Does Not Begin or End With the Model | Phase 0 — Enterprise Discovery & Readiness; Execution & Production Authorization; Runtime Operations & Value Realization | Where did bias enter the decision pathway, how did the system reduce or amplify it, and what outcome did the complete process produce? | v1.0 | [GitHub](companion-2-bias-does-not-begin-or-end-with-the-model.md) · [Substack](https://rwahai.substack.com/p/bias-does-not-begin-or-end-with-the) |
+| C3 | An AI Bias Assessment Found a Problem. What Happens Next? | — | How does an organization turn assessment findings into operating governance — ownership, evidence, intervention triggers, and risk acceptance? | — | Planned publication: October 16, 2026 |
 
 ## Article 3 at a Glance
 
@@ -47,6 +49,19 @@ Companion articles examine topics that cut across several levels of the progress
 - **Who owns the risk when it crosses the boundary?** — Ownership often changes at each transition, so risk can become everybody's concern but nobody's responsibility.
 - **Technical success is not business success** — Technical Function → System Behavior → Business Outcome are different levels of measurement.
 - **Why Phase 0 comes first** — Scoping the AI-enabled system too narrowly narrows the risk assessment and the definition of success.
+
+## Companion Article 2 at a Glance
+
+[Bias Does Not Begin or End With the Model](companion-2-bias-does-not-begin-or-end-with-the-model.md) continues the system-level view of bias, distinguishing systemic, training-data, model, human-cognitive and system-level bias and describing how to assess each across the decision pathway:
+
+- **Bias can exist before AI** — Institutional and historical practices produce a pattern that eventually becomes data; an accurate record of previous decisions is not necessarily an appropriate standard for future decisions.
+- **How systemic bias becomes data bias** — Historical hiring and performance records already reflect the organization’s previous environment; proxy features can preserve that pattern without a protected characteristic.
+- **Bias within the model** — Feature weighting, cross-domain interpretation and wrong prediction objectives can cause a technically accurate model to reproduce previous hiring preferences.
+- **Human-cognitive bias** — Automation bias and anchoring mean a human in the loop does not by itself resolve the issue; workload, interface design and organizational expectations influence how AI output is used.
+- **System-level bias** — A recurring, unjustified disadvantage can be produced by the combined operation of data, AI, business rules, workflows, people and organizational conditions, even when the model passes its fairness assessment.
+- **Baseline, stages and reassessment** — Compare the existing-process baseline, the intended outcome and the actual result; find where a difference first appears across applicant pool → ranking → review → interview → offer → hire; reassess after deployment when the system or model changes.
+- **Match the response to the source** — The correct fix depends on where the difference appeared and may be a job requirement, workflow, interface, human responsibility or organizational incentive rather than another model adjustment.
+- **Assess the system, not only the model** — This work begins during Phase 0 and continues for as long as the system operates, asking where bias entered, how the system reduced or amplified it, and what outcome the complete process produced.
 
 ## Versions and Change Log
 
