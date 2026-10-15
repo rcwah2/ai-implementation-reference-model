@@ -24,6 +24,7 @@ Companion articles examine topics that cut across several levels of the progress
 |---|---|---|---|---|---|
 | C1 | Your AI Model Works. But Does the System? | Phase 0 — Enterprise Discovery & Readiness; Execution & Production Authorization; Runtime Operations & Value Realization | How do we evaluate a component, the boundaries around it and the resulting outcome as one AI-enabled system? | v1.0 | [GitHub](companion-1-your-ai-model-works-but-does-the-system.md) · [Substack](https://rwahai.substack.com/p/your-ai-model-works-but-does-the) |
 | C2 | Bias Does Not Begin or End With the Model | Phase 0 — Enterprise Discovery & Readiness; Execution & Production Authorization; Runtime Operations & Value Realization | Where did bias enter the decision pathway, how did the system reduce or amplify it, and what outcome did the complete process produce? | v1.0 | [GitHub](companion-2-bias-does-not-begin-or-end-with-the-model.md) · [Substack](https://rwahai.substack.com/p/bias-does-not-begin-or-end-with-the) |
+| C3 | An AI Bias Assessment Found a Problem. What Happens Next? | — | How does an organization turn assessment findings into operating governance — ownership, evidence, intervention triggers, and risk acceptance? | — | Planned publication: October 16, 2026 |
 
 ## Article 3 at a Glance
 
