@@ -26,7 +26,7 @@ For how versions are numbered and archived, see [Versioning and Archive Policy](
 
 | Date | Version | Type | Change | Reason and source | Regulatory register ID | Approved | GitHub | Substack | Archived prior version |
 |---|---|---|---|---|---|---|---|---|---|
-| 2026-10-14 | v1.0 | Initial release | Article published; added to the articles index and root README | — | — | 2026-10-14 | PR (this PR) | Published | — (first version) |
+| 2026-10-14 | v1.0 | Initial release | Added the published Substack article as Companion Article 2; updated the articles index and root README | — | — | 2026-10-14 | PR #7 | Published | — (first version) |
 
 ## Companion Article 1 — Your AI Model Works. But Does the System?
 
