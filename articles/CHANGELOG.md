@@ -20,6 +20,14 @@ For how versions are numbered and archived, see [Versioning and Archive Policy](
 
 ---
 
+## Companion Article 3 — An AI Bias Assessment Found a Problem. What Happens Next?
+
+**Current version:** v1.0 · [GitHub](companion-3-an-ai-bias-assessment-found-a-problem-what-happens-next.md) · [Substack](https://rwahai.substack.com/p/an-ai-bias-assessment-found-a-problem)
+
+| Date | Version | Type | Change | Reason and source | Regulatory register ID | Approved | GitHub | Substack | Archived prior version |
+|---|---|---|---|---|---|---|---|---|---|
+| 2026-10-19 | v1.0 | Initial release | Added the published Substack article as Companion Article 3, completing the AI bias companion series; updated the articles index and root README | — | — | 2026-10-19 | PR #8 | Published | — (first version) |
+
 ## Companion Article 2 — Bias Does Not Begin or End With the Model
 
 **Current version:** v1.0 · [GitHub](companion-2-bias-does-not-begin-or-end-with-the-model.md) · [Substack](https://rwahai.substack.com/p/bias-does-not-begin-or-end-with-the)
