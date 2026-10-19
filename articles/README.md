@@ -24,7 +24,7 @@ Companion articles examine topics that cut across several levels of the progress
 |---|---|---|---|---|---|
 | C1 | Your AI Model Works. But Does the System? | Phase 0 — Enterprise Discovery & Readiness; Execution & Production Authorization; Runtime Operations & Value Realization | How do we evaluate a component, the boundaries around it and the resulting outcome as one AI-enabled system? | v1.0 | [GitHub](companion-1-your-ai-model-works-but-does-the-system.md) · [Substack](https://rwahai.substack.com/p/your-ai-model-works-but-does-the) |
 | C2 | Bias Does Not Begin or End With the Model | Phase 0 — Enterprise Discovery & Readiness; Execution & Production Authorization; Runtime Operations & Value Realization | Where did bias enter the decision pathway, how did the system reduce or amplify it, and what outcome did the complete process produce? | v1.0 | [GitHub](companion-2-bias-does-not-begin-or-end-with-the-model.md) · [Substack](https://rwahai.substack.com/p/bias-does-not-begin-or-end-with-the) |
-| C3 | An AI Bias Assessment Found a Problem. What Happens Next? | — | How does an organization turn assessment findings into operating governance — ownership, evidence, intervention triggers, and risk acceptance? | — | Planned publication: October 16, 2026 |
+| C3 | An AI Bias Assessment Found a Problem. What Happens Next? | Enterprise Governance / AIMS; Program Governance & Integration; Execution & Production Authorization; Runtime Operations & Value Realization | How does an organization turn assessment findings into operating governance — ownership, evidence, intervention triggers, and risk acceptance? | v1.0 | [GitHub](companion-3-an-ai-bias-assessment-found-a-problem-what-happens-next.md) · [Substack](https://rwahai.substack.com/p/an-ai-bias-assessment-found-a-problem) |
 
 ## Article 3 at a Glance
 
@@ -62,6 +62,20 @@ Companion articles examine topics that cut across several levels of the progress
 - **Baseline, stages and reassessment** — Compare the existing-process baseline, the intended outcome and the actual result; find where a difference first appears across applicant pool → ranking → review → interview → offer → hire; reassess after deployment when the system or model changes.
 - **Match the response to the source** — The correct fix depends on where the difference appeared and may be a job requirement, workflow, interface, human responsibility or organizational incentive rather than another model adjustment.
 - **Assess the system, not only the model** — This work begins during Phase 0 and continues for as long as the system operates, asking where bias entered, how the system reduced or amplified it, and what outcome the complete process produced.
+
+## Companion Article 3 at a Glance
+
+[An AI Bias Assessment Found a Problem. What Happens Next?](companion-3-an-ai-bias-assessment-found-a-problem-what-happens-next.md) completes the companion series on AI bias, turning an assessment finding into ownership, action and evidence:
+
+- **The assessment found something; it did not decide anything** — The organization needs to ask what the evidence shows, what remains uncertain and what to do while learning more; how many people are affected, how consequential the decision is and whether the outcome can be reversed should shape the response.
+- **Match the response to where the difference appeared** — A difference that begins in the ranking may require a change to the data, model or prediction objective; a difference that grows after the ranking enters the workflow may require a change to the interface, business rules, workload or review process.
+- **Three ownership responsibilities** — Who operates each control, who owns the complete AI-enabled system, and who has the authority to accept the remaining risk; these may be different people, but each must be named.
+- **Responsibility without authority is not accountability** — The AI system owner needs a defined way to require evidence, coordinate corrective action, restrict or pause the system's use, escalate unresolved risk and approve continued use.
+- **Monitoring needs a defined response** — Indicators such as review rates, independent sampling results and progression rates matter only when a meaningful signal leads to a defined action; otherwise monitoring is reporting.
+- **Human in the loop is not enough** — Human review becomes an operational control when its purpose, information, time, authority and expected response are explicit; overrides are documented with who made them, why and what happened afterward.
+- **Verify the corrective action worked** — Return to the baseline and compare the same stages of the decision pathway before and after the intervention: Baseline → Finding → Corrective Action → Actual Result; the action stays open until evidence shows the intended effect.
+- **Reassess when the system changes** — Recruiter capacity, workflow, vendor interface or operating conditions can change the outcome even when the model does not; reassess on any meaningful change and keep the assessment as part of the system's operating record.
+- **Close the governance loop** — Finding → Decision → Owner → Action → Evidence → Reassessment; the organization deploying the AI-enabled process remains accountable for the outcome it produces.
 
 ## Versions and Change Log
 
